@@ -91,7 +91,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Video "Read JSON File into HTML with JavaScript Fetch API"](https://www.youtube.com/watch?v=Oage6H4GX2o) - This helped me to understand how to read the data from a JSON file and added to the HTML with javascript.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
