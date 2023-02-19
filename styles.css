@@ -1,0 +1,87 @@
+:root {
+    --lightRed: hsl(0, 100%, 67%);
+    --oangeyYellow: hsl(39, 100%, 56%);
+    --greenTeal: hsl(166, 100%, 37%);
+    --cobaltBlue: hsl(234, 85%, 45%);
+
+    --lightSlateBlue: hsl(252, 100%, 67%);
+    --lightRoyalBlue: hsl(241, 81%, 54%);
+
+    --violetBlue: hsla(256, 72%, 46%, 1);
+    --persianBlue: hsla(241, 72%, 46%, 0);
+
+    --white: #fff;
+
+    --mainFont: 'Hanken Grotesk', sans-serif;
+}
+
+/** Global **/
+
+body {
+    min-height: 100vh;
+    font-family: var(--mainFont);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+/** Card **/
+
+.card {
+    /* background-color: yellowgreen; */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: var(--white);
+}
+
+@media (min-width: 375px) {
+    .card {
+        flex-direction: row;
+        height: 450px;
+    }
+}
+
+/** Result **/
+
+.result {
+    width: 100%;
+    background-color: var(--lightSlateBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+@media (min-width: 375px) {
+    .result {
+        width: 300px;
+    }
+    
+}
+
+/** Summary **/
+
+.summary {
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+@media (min-width: 375px) {
+    .summary {
+        width: 300px;
+    }
+    
+}
