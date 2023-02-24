@@ -11,8 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-
+  
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
   <main class="card">
@@ -78,7 +80,7 @@
                                                           <img class="category__title--icon" src="${element.icon}" alt="icon">
                                                           <p class="category__title--name">${element.category}</p>
                                                         </div>
-                                                        <p class="summary__category--score">${element.score}<span>/100</span></p>
+                                                        <p class="summary__category--score">${element.score}<span> / 100</span></p>
                                                       </div>`);
             });
           });

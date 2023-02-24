@@ -16,6 +16,8 @@
     --violetBlue: hsla(256, 72%, 46%, 1);
     --persianBlue: hsla(241, 72%, 46%, 0);
 
+    --buttonColor: #303b59;
+
     --white: #fff;
     --black: #000;
     --gray: #95949b;
@@ -128,14 +130,15 @@ body {
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5;
+    grid-template-rows: auto auto auto;
     justify-content: center;
     align-items: center;
     background-color: var(--white);
     border-radius: 30px;
     margin: 0;
-    padding: 0;
+    padding: 20px 35px;
     text-align: center;
+    padding-bottom: 35px;
 }
 
 @media (min-width: 375px) {
@@ -145,7 +148,14 @@ body {
 }
 
 .summary__cards {
-    padding: 0 35px;
+    padding: 0;
+}
+
+.summary__title {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+    padding: 0;
 }
 
 .summary__category {
@@ -179,13 +189,28 @@ body {
 }
 .category__title {
     display: flex;
+    margin-left: 10px;
+}
+
+.category__title--name {
+    margin-left: 10px;
 }
 
 .summary__category--score {
     color: var(--black);
     text-align: end;
+    margin-right: 10px;
 }
 
 .summary__category--score span{
     color: var(--gray);
+}
+
+.summary__button {
+    padding: 0;
+    height: 100%;
+    text-decoration: none;
+    background-color: var(--buttonColor);
+    color: var(--white);
+    border-radius: 30px;
 }
