@@ -58,6 +58,7 @@ body {
         -moz-box-shadow: 10px 10px 25px -3px rgba(199,210,219,1);
         box-shadow: 10px 10px 25px -3px rgba(199,210,219,1);
         border-radius: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -228,4 +229,22 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+}
+
+.summary__button:hover {
+    background-image: linear-gradient(to bottom, var(--lightSlateBlue), var(--lightRoyalBlue));
+}
+
+/** Attribution **/
+
+.attribution {
+    font-size: 14px;
+}
+
+.attribution a {
+    color: var(--lightSlateBlue);
+}
+
+.attribution a:hover {
+    color: var(--lightRoyalBlue);
 }
