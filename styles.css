@@ -208,6 +208,11 @@ body {
     margin-left: 10px;
 }
 
+.category__title--icon {
+    height: 20px;
+    width: 20px;
+}
+
 .summary__category--score {
     color: var(--black);
     text-align: end;
