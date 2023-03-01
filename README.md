@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-
-
+![Screenshot 2023-03-01 at 10-26-14 Frontend Mentor Results summary component](https://user-images.githubusercontent.com/119544731/222184919-e5b077d6-b20d-4a1b-9f93-f54ad2cf34d8.png)
 
 ### Links
 
