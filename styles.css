@@ -202,6 +202,7 @@ body {
 .category__title {
     display: flex;
     margin-left: 10px;
+    align-items: center;
 }
 
 .category__title--name {
